@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useState, React } from "react";
 import { productsArray, getProductData } from "./productsStore";
 import { react } from "react"
 

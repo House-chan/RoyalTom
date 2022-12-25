@@ -1,5 +1,5 @@
 import './Register.css';
-
+import { React } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../component/image/royal_tom_logo.png'; 
 import Navbar2 from '../component/Navbar2/Navbar2';

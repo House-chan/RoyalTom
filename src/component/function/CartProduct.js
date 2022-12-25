@@ -1,5 +1,5 @@
 import './CartProduct.css';
-
+import { React } from 'react';
 import { CartContext } from "./CartContext";
 import { useContext } from "react";
 import { getProductData } from "./productsStore";

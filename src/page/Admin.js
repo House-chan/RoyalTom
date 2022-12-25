@@ -5,7 +5,10 @@ import Topic from "./components/AdminPage/Topic"
 import Promotion from "./components/AdminPage/Promotion"
 
 function Admin() {
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes
   const [active, setActive] = useState("Promotion");
 
  
@@ -13,6 +16,10 @@ function Admin() {
     <div className="container">
       <Topic setState={setActive}/>
       {active === "Promotion" && <Promotion/>}
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     </div>
   );
 }

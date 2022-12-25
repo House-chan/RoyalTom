@@ -2,7 +2,7 @@ import './Register.css';
 
 import {Link} from 'react-router-dom';
 import logo from '../component/image/royal_tom_logo.png'; 
-
+import { React } from 'react';
 import styled from 'styled-components'
 
 import Navbar2 from '../component/Navbar2/Navbar2';
