@@ -36,7 +36,7 @@ const PurchaseList = ({purchase}) => {
             </div>
         </div>
         {
-            purchase.status == "Order Complete" &&
+            purchase.status === "Order Complete" &&
             <div className="review">
                 <button className='white'>
                     Buy Again

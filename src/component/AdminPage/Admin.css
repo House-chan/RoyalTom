@@ -1,0 +1,328 @@
+body{
+  background: lightgray;
+  width: 100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  font-family: "Poppins";
+  font-size:24px;
+}
+
+button{
+  font-family: "poppins";
+  cursor:pointer;
+}
+
+.container {
+  /* max-width: 500px; */
+  margin: auto;
+  height: auto;
+  overflow: auto;
+  /* min-height: 300px; */
+  /* border: 1px solid steelblue; */
+  padding: 30px;
+  border-radius: 5px;
+  /* display: flex; */
+}
+
+.selection{
+  width:30%;
+  float: left;
+  padding:30px;
+}
+
+.selection .list{
+  /* https://stackoverflow.com/questions/19396180/how-to-spread-dynamic-divs-vertically-evenly */
+  display: flex;
+  flex-direction:column;
+  margin-left: 5%;
+}
+
+.selection .list .btn-default{
+  margin:20px;
+  margin-bottom: 25px;
+  padding-left:30px;
+}
+
+.selection .btn{
+  display:inline-flex;
+  margin-top:20px;
+  margin-bottom:25px;
+  padding-left:10px;
+}
+
+.selection .btn img{
+  margin-top:5px;
+  margin-right:10px;
+  /* margin-bottom:0; */
+}
+
+.selection .list .account img{
+  width: 30%;
+  float: left;
+  border-radius: 50%;
+  margin-right:5%;
+}
+
+.selection .list .account {
+  font-size:20px;
+}
+
+.selection .list .account p{
+  font-size:18px;
+  margin-top:18px;
+  margin-bottom: 18px;
+}
+
+.selection .list .account h2{
+  margin-top:24px;
+  margin-bottom: 24px;
+}
+
+.selection button{
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.selection button:hover{
+  color: green;
+}
+
+.Detail{
+  /* display:inline; */
+  width:60%;
+  float:left;
+  min-height:800px;
+  max-height:900px;
+  /* align-items:center; */
+  background-color:white;
+  border-radius:25px;
+  padding:15px;
+  overflow-y: auto;
+}
+
+.Detail .header p{
+  color:darkgreen;
+  font-size:32px;
+  font-weight: bold;
+  margin-left:50px;
+  display:inline-block;
+}
+
+.Detail hr{
+  margin-right:50px;
+  margin-left:50px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.Detail .block p{
+  /* display:inline; */
+  width:50%;
+  float:left;
+  /* display: flex; */
+  /* width:60%; */
+  /* float:right; */
+}
+
+.Detail .block .input{
+  float:left;
+  /* text-align:center; */
+  /* width:50%; */
+  padding:20px 0;
+  /* width:50%; */
+
+}
+
+.Detail .addPromotion{
+  float: right;
+  border-radius: 10px;
+  background-color:darkgreen;
+  color:white;
+  padding: 6px 18px;
+  font-size:16px;
+  margin: 20px;
+}
+
+.Detail .header button{
+  float:right;
+  padding:15px;
+  cursor:pointer;
+  margin:20px;
+  border:0;
+  /* height:200px */
+}
+
+.Detail .promotion{
+  display:grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+
+.promotionList{
+  display:block;
+  box-shadow: 3px 3px lightgray;
+}
+
+.promotionList p{
+  font-size:20px;
+}
+
+.promotionList .promotionDetail button{
+  margin:0;
+  background:none;
+  border:none;
+  cursor: pointer;
+  font-weight: 600;
+  color:darkgreen;
+}
+
+.promotionList .promotionDetail p{
+  margin-left:15px;
+}
+
+.promotionList .promotionName h5{
+  margin-bottom:0px;
+  margin-left:15px;
+  margin-top:32px;
+}
+
+.promotionList .promotionRequirement p{
+  margin:0;
+  color:darkgreen;
+}
+
+.promotionList .promotionRequirement{
+  margin-left:15px;
+  display:inline-flex;
+  border:solid;
+  border-color:green;
+}
+
+.promotionList .promotionExpire p{
+  color:gray;
+  margin-top:5px;
+}
+
+.promotionList .promotionImage{
+  /* display:flex; */
+  background-color: darkgreen;
+  width:40%;
+  height:100%;
+  float:left;
+}
+
+.promotionList .promotionImage img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:30px;
+}
+
+.promotionList .promotionImage p{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.promotionList .promotionDetail{
+  width:60%;
+  float:left;
+}
+
+.popup{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  width:500px;
+  /* max-width:600px; */
+  min-height: 300px;
+  max-height:100%;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.popup .popup-inner .popup-title{
+  color:darkgreen;
+  font-family: "Poppins";
+  font-size:28px;
+  margin-top:15px;
+  margin-bottom:15px;
+  font-weight: bold;
+}
+
+.popup-inner .popup-grid{
+  display:grid;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+
+}
+
+.button .cancel-btn{
+  color:black;
+  background-color: white;
+}
+
+.popup-inner input{
+  width:80%;
+  padding:10px;
+  border-radius: 8px;
+  border-color: gray;
+}
+
+.popup-inner .popup-child{
+  padding:10px;
+}
+
+.popup-inner .popup-child p:nth-child(2){
+  color:red;
+  width:10%;
+}
+
+.popup-inner .popup-child p{
+  margin:0;
+  float:left;
+  font-size: 16px;
+}
+
+.popup-inner .popup-detail {
+  margin-left:10px;
+}
+
+.popup-inner .popup-detail p{
+  font-size: 16px;
+  margin:0;
+  float:left;
+}
+
+.popup-inner hr{
+  margin:15px;
+}
+
+.popup-inner .popup-detail input{
+  width:90%;
+}
+
+.popup-inner .popup-detail p:nth-child(2){
+  color:red;
+}

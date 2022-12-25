@@ -40,7 +40,7 @@ function Navbar(){
             </li>
 
             <Link to = "/profile" className="profileNavbar">
-                a
+                <img src={"../Images/avatar.png"}></img>
             </Link>
         </ul>
         

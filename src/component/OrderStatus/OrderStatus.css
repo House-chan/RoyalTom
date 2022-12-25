@@ -1,0 +1,89 @@
+.Block{
+     margin:10px;
+     padding:50px;
+     background-color:white;
+     border-radius: 25px;
+     font-family: 'poppins';
+     font-size: 20px;
+}
+
+.Block button{
+     background-color:white;
+     border:none;
+     cursor: pointer;
+     font-weight: 600;
+     font-size: 24px;
+     color:darkgreen;
+}
+
+.Block .header{
+     text-align:center;
+     font-size:30px;
+     color:darkgreen;
+     font-weight: 900;
+}
+
+.Block .header p{
+     margin:0;
+}
+
+.Block .trackingId{
+     display: inline-block;
+     font-weight: bold;
+}
+
+.Block .trackingId p:first-child{
+     float:left;
+     color:green;
+     margin-top:20px;
+     margin-bottom: 20px;
+}
+
+.Block .trackingId p:nth-child(2){
+     float:left;
+     margin-left:5px;
+     margin-top:20px;
+     margin-bottom: 20px;
+}
+
+.Block .trackingStatus .statusGrid{
+     display:grid;
+     grid-template-columns: auto auto auto;
+     text-align: center;
+}
+
+.Block .trackingStatus .statusGrid p{
+     margin-top:20px;
+     margin-bottom: 20px;
+}
+
+.Block .trackingStatus .statusGrid img{
+     display: block;
+     margin-left:auto;
+     margin-right:auto;
+     margin-bottom:10px;
+}
+
+.Block .trackingStatus{
+     position:relative;
+     margin-top:100px;
+     margin-bottom:100px;
+}
+.Block .trackingStatus .statusLine{
+     position: absolute;
+     /* width:500px; */
+     left:10%;
+     top:49%;
+}
+
+.Block .address #header{
+     font-size:24px;
+     font-weight: bold;
+     color:darkgreen;
+     margin-top:35px;
+     margin-bottom:15px;
+}
+
+.Block .address p{
+     margin:0;
+}

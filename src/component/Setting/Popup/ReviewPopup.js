@@ -31,8 +31,10 @@ const ReviewPopup = ({trigger, setTriggers, product}) => {
                   <input type="text" id="review" name="review" placeholder="Share more thoughts on the product to help other buyers."></input>
                 </div>
 
-                <div className="popup-detail">
-                  <input type="image" id="image" name="image" placeholder="Add Image"></input>
+                <div className="popup-button">
+                  <button>
+                    Add Photo
+                  </button>
                 </div>
 
                 <div className="popup-detail">

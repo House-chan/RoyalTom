@@ -38,7 +38,7 @@ function Setting() {
     <Navbar/>
       <SettingCSS>
           <div className="container">
-          <Topic state={setActive}/>
+          <Topic setState={setActive}/>
           {active === "Profile" && <Profile />}
           {active === "Address" && <Address />}
           {active === "Payment" && <Payment />}

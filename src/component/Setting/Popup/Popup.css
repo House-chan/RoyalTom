@@ -15,12 +15,12 @@
      position: relative;
      padding: 32px;
      width: 100%;
-     min-width:400px;
-     max-width:400px;
+     width:400px;
+     /* max-width:600px; */
      min-height: 300px;
      max-height:100%;
      background-color: #fff;
-     border-radius: 3%;
+     border-radius: 25px;
 }
 
 .popup .popup-inner .popup-title{
@@ -47,7 +47,7 @@
 .popup-inner input{
      width:380px;
      padding:10px;
-     border-radius: 5%;
+     border-radius: 10px;
      margin-left:5px;
      margin-right:5px;
      border-color: gray;
@@ -104,7 +104,7 @@
 }
 
 .popup-product img{
-     border-radius:5%;
+     border-radius:15px;
 }
 
 .popup-product p{
@@ -136,7 +136,7 @@
 #review{
      width:550px;
      height:100px;
-     border-radius: 5%;
+     border-radius: 15px;
      word-wrap: break-word;
      word-break: break-all;
 }
@@ -153,3 +153,14 @@
      border-radius: 3%;
 }
 
+.popup-inner-review .popup-button{
+     display: inline-block;
+}
+
+.popup-inner-review .popup-button button{
+     background-color: white;
+     color:black;
+     border-color: darkgreen;
+     font-size:16px;
+     margin:0px;
+}
